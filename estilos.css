@@ -922,6 +922,8 @@ footer {
 .dropdown-container {
     position: relative;
     display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
 }
 
 /* Estilo específico para el botón "Más" */
@@ -943,9 +945,8 @@ footer {
     border-radius: 10px;
     overflow: hidden;
     z-index: 2000;
-    padding: 10px 0;
-    margin-top: 15px; /* Separación del botón */
-    
+    padding: 10px 0; /* Separación del botón */
+    z-index: 9999;
     /* Animación de entrada */
     animation: fadeInUp 0.3s ease;
 }
